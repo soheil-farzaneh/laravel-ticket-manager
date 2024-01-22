@@ -9,11 +9,13 @@ use soheilfarzaneh\Ticket\Exceptions\TicketFaildValidationException;
 
 class TicketRequest extends BaseRequest
 {
-    public function authorize(){
+    public function authorize()
+    {
         return true;
     }
 
-    public function rules(){
+    public function rules()
+    {
         return config('support.ticket.rules');
     }
 

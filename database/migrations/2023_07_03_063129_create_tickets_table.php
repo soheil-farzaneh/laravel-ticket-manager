@@ -40,7 +40,6 @@ return new class extends Migration
             $table->longText('text')->nullable();
             $table->string('ip')->nullable();
             $table->string('file')->nullable();
-            $table->string('local_id');
             $table->string('created_by');
             $table->timestamps('deleted_at');
             $table->timestamps();

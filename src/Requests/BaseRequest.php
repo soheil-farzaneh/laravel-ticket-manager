@@ -7,7 +7,8 @@ use Illuminate\Contracts\Validation\Validator;
 use Illuminate\Http\Exceptions\HttpResponseException;
 
 class BaseRequest extends FormRequest {
-    protected function failedValidation(Validator $validator) {
+    protected function failedValidation(Validator $validator) 
+    {
         $response = [
             'status'  => 'error',
             'message' => $validator->errors()->first(),

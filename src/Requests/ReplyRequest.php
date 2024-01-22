@@ -7,11 +7,13 @@ use Illuminate\Foundation\Http\FormRequest;
 
 class MessageRequest extends BaseRequest
 {
-    public function authorize(){
+    public function authorize()
+    {
         return true;
     }
 
-    public function rules(){
+    public function rules()
+    {
         return config('support.ticket.reply.rules');
     }
 
