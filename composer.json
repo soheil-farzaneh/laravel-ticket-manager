@@ -1,5 +1,14 @@
 {
     "name": "soheilfarzaneh/ticket-manager",
+    "authors": [
+        {
+            "name": "soheil farzaneh",
+            "email": "esoheilfarzaaneh@gmail.com"
+        }
+    ],
+    "type": "library",
+    "minimum-stability": "stable",
+    "prefer-stable": true,
     "autoload": {
         "psr-4": {
             "soheilfarzaneh\\Ticket\\": "src/"
