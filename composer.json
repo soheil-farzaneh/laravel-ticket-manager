@@ -1,5 +1,5 @@
 {
-    "name": "ticket-manager",
+    "name": "soheilfarzaneh/ticket-manager",
     "autoload": {
         "psr-4": {
             "soheilfarzaneh\\Ticket\\": "src/"
